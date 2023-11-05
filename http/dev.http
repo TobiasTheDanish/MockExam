@@ -1,0 +1,24 @@
+GET localhost:7070/api/plants
+Accept: application/json
+
+###
+
+GET localhost:7070/api/plants/1
+Accept: application/json
+
+###
+
+GET localhost:7070/api/plants/types/Rose
+Accept: application/json
+
+###
+
+POST localhost:7070/api/plants
+Accept: application/json
+
+{
+"plantType": "Rose",
+"plantName": "Gallicanae",
+"maxHeight": 350,
+"price": 299.0
+}
